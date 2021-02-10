@@ -1,3 +1,3 @@
 # notary
-Great repository names are short and memorable. 
+new notary
 https://imppratim.github.io/notary/
