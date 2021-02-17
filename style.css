@@ -1,8 +1,9 @@
 
 body{
 	margin: 0;
+	padding: 0;
 }
-header{
+.container{
 	width: 80%;
 	overflow: hidden;
 	margin: 0 auto;
@@ -60,3 +61,117 @@ header{
 .menu ul li a:hover{
 	color:red;
 }
+.banner{
+	background-image:url(images/banner.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.b_content{
+	width:50%;
+	margin:100px 0;
+	
+
+}
+
+.b_content h1{
+	margin:0 0 40px;
+	font-family: sans-serif;
+	font-size: 257%;
+	font-weight: 700;
+	color:white;
+	text-transform: capitalize;
+	
+}
+.b_content p{
+	font-family: sans-serif;
+	font-size: 18px;
+	font-weight: normal;
+	color:white ;
+	font-weight: 400px;
+	line-height: 25px;
+	
+}
+
+.b_content button{
+	width:250px;
+	height: 50px;
+	background-color: #B9243E;
+	border: none;
+	font-family: sans-serif;
+	font-size: 18px;
+	font-weight: 400px;
+	color: white;
+	margin-top: 40px;
+	cursor: pointer;
+	transition: .3s;
+}
+
+.b_content button:hover{
+	background-color:white;
+	color: #BD233F;
+}
+/**banner end*/
+/*work start*/
+.works{
+	padding: 90px 0;
+}
+
+.c_title{
+	margin: 0 auto 50px;
+	width: 70%;
+	text-align: center;
+
+
+}
+
+.c_title h1{
+	font-family: sans-serif;
+	font-size: 31px;
+	font-weight: 400;
+	color: #161616;
+
+}
+
+.c_title p{
+	margin:0; 
+	font-family: sans-serif;
+	font-size: 17px;
+	font-weight: 400;
+	color: #535D69;
+	line-height: 25px;
+
+
+}
+
+
+/*work start*/
+
+.w_content{
+	overflow: hidden;
+}
+.single{
+	float: left;
+	padding: 20px 50px;
+	width:33.33%;
+	text-align: center;
+}
+
+.s_img{
+	margin:0 auto;
+	width:50%;
+}
+.s_img img{
+	width: 100%;
+
+}
+.single h3{
+	font-family: sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	color: #535D69;
+	line-height: 25px;
+}
+/*work end*/
+
